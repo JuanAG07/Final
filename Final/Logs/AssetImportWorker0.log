@@ -22,7 +22,7 @@ AssetImportWorker0
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-58351
+59504
 Successfully changed project path to: /Users/juangonzalez352/Documents/GitHub/Final/Final
 Could not lock editor preferences. Preferences updates for this instance of Unity will not be saved./Users/juangonzalez352/Documents/GitHub/Final/Final
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
@@ -56,12 +56,12 @@ Could not lock editor preferences. Preferences updates for this instance of Unit
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [8695298752] Host "[IP] 10.194.22.162 [Port] 0 [Flags] 2 [Guid] 3603858068 [EditorId] 3603858068 [Version] 1048832 [Id] OSXEditor(0,mac-studio.rusd.edu) [Debug] 1 [PackageName] OSXEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+Player connection [8695298752] Host "[IP] 10.194.22.162 [Port] 0 [Flags] 2 [Guid] 1480561717 [EditorId] 1480561717 [Version] 1048832 [Id] OSXEditor(0,mac-studio.rusd.edu) [Debug] 1 [PackageName] OSXEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
 
-Player connection [8695298752] Host "[IP] 10.194.22.162 [Port] 0 [Flags] 2 [Guid] 3603858068 [EditorId] 3603858068 [Version] 1048832 [Id] OSXEditor(0,mac-studio.rusd.edu) [Debug] 1 [PackageName] OSXEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [8695298752] Host "[IP] 10.194.22.162 [Port] 0 [Flags] 2 [Guid] 1480561717 [EditorId] 1480561717 [Version] 1048832 [Id] OSXEditor(0,mac-studio.rusd.edu) [Debug] 1 [PackageName] OSXEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
 
 [Physics::Module] Initialized MultithreadedJobDispatcher with 11 workers.
-Refreshing native plugins compatible for Editor in 2.18 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 2.90 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2022.3.12f1 (4fe6e059c7ef)
 [Subsystems] Discovering subsystems at path /Applications/Unity/Hub/Editor/2022.3.12f1/Unity.app/Contents/Resources/UnitySubsystems
@@ -76,46 +76,46 @@ Initialize mono
 Mono path[0] = '/Applications/Unity/Hub/Editor/2022.3.12f1/Unity.app/Contents/Managed'
 Mono path[1] = '/Applications/Unity/Hub/Editor/2022.3.12f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityjit-macos'
 Mono config path = '/Applications/Unity/Hub/Editor/2022.3.12f1/Unity.app/Contents/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56244
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56284
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: /Applications/Unity/Hub/Editor/2022.3.12f1/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
 Register platform support module: /Applications/Unity/Hub/Editor/2022.3.12f1/Unity.app/Contents/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
-Registered in 0.000988 seconds.
-- Loaded All Assemblies, in  0.173 seconds
+Registered in 0.000973 seconds.
+- Loaded All Assemblies, in  0.179 seconds
 Native extension for OSXStandalone target not found
 Native extension for WebGL target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.122 seconds
-Domain Reload Profiling: 295ms
-	BeginReloadAssembly (42ms)
+- Finished resetting the current domain, in  0.133 seconds
+Domain Reload Profiling: 312ms
+	BeginReloadAssembly (41ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (0ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
 		CreateAndSetChildDomain (0ms)
-	RebuildCommonClasses (20ms)
-	RebuildNativeTypeToScriptingClass (8ms)
-	initialDomainReloadingComplete (27ms)
-	LoadAllAssembliesAndSetupDomain (77ms)
-		LoadAssemblies (42ms)
+	RebuildCommonClasses (21ms)
+	RebuildNativeTypeToScriptingClass (7ms)
+	initialDomainReloadingComplete (26ms)
+	LoadAllAssembliesAndSetupDomain (84ms)
+		LoadAssemblies (41ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (76ms)
-			TypeCache.Refresh (75ms)
-				TypeCache.ScanAssembly (68ms)
+		AnalyzeDomain (83ms)
+			TypeCache.Refresh (82ms)
+				TypeCache.ScanAssembly (74ms)
 			ScanForSourceGeneratedMonoScriptInfo (0ms)
 			ResolveRequiredComponents (0ms)
-	FinalizeReload (122ms)
+	FinalizeReload (133ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (90ms)
+		SetupLoadedEditorAssemblies (99ms)
 			LogAssemblyErrors (0ms)
 			InitializePlatformSupportModulesInManaged (4ms)
 			SetLoadedEditorAssemblies (3ms)
 			RefreshPlugins (0ms)
 			BeforeProcessingInitializeOnLoad (1ms)
-			ProcessInitializeOnLoadAttributes (61ms)
-			ProcessInitializeOnLoadMethodAttributes (21ms)
+			ProcessInitializeOnLoadAttributes (67ms)
+			ProcessInitializeOnLoadMethodAttributes (23ms)
 			AfterProcessingInitializeOnLoad (0ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
@@ -123,8 +123,8 @@ Domain Reload Profiling: 295ms
 ========================================================================
 Worker process is ready to serve import requests
 Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  0.300 seconds
-Refreshing native plugins compatible for Editor in 0.74 ms, found 2 plugins.
+- Loaded All Assemblies, in  0.318 seconds
+Refreshing native plugins compatible for Editor in 0.73 ms, found 2 plugins.
 Native extension for OSXStandalone target not found
 Native extension for WebGL target not found
 Package Manager log level set to [2]
@@ -132,9 +132,9 @@ Package Manager log level set to [2]
 [Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
 [Package Manager] Cannot connect to Unity Package Manager local server
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.279 seconds
-Domain Reload Profiling: 580ms
-	BeginReloadAssembly (65ms)
+- Finished resetting the current domain, in  0.299 seconds
+Domain Reload Profiling: 617ms
+	BeginReloadAssembly (70ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (3ms)
 		BackupInstance (0ms)
@@ -142,38 +142,38 @@ Domain Reload Profiling: 580ms
 		CreateAndSetChildDomain (15ms)
 	RebuildCommonClasses (22ms)
 	RebuildNativeTypeToScriptingClass (7ms)
-	initialDomainReloadingComplete (19ms)
-	LoadAllAssembliesAndSetupDomain (187ms)
-		LoadAssemblies (122ms)
+	initialDomainReloadingComplete (20ms)
+	LoadAllAssembliesAndSetupDomain (200ms)
+		LoadAssemblies (129ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (94ms)
-			TypeCache.Refresh (86ms)
-				TypeCache.ScanAssembly (77ms)
-			ScanForSourceGeneratedMonoScriptInfo (5ms)
+		AnalyzeDomain (103ms)
+			TypeCache.Refresh (93ms)
+				TypeCache.ScanAssembly (84ms)
+			ScanForSourceGeneratedMonoScriptInfo (6ms)
 			ResolveRequiredComponents (2ms)
-	FinalizeReload (280ms)
+	FinalizeReload (299ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (202ms)
+		SetupLoadedEditorAssemblies (214ms)
 			LogAssemblyErrors (0ms)
 			InitializePlatformSupportModulesInManaged (3ms)
 			SetLoadedEditorAssemblies (2ms)
 			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (27ms)
-			ProcessInitializeOnLoadAttributes (160ms)
-			ProcessInitializeOnLoadMethodAttributes (9ms)
+			BeforeProcessingInitializeOnLoad (29ms)
+			ProcessInitializeOnLoadAttributes (169ms)
+			ProcessInitializeOnLoadMethodAttributes (10ms)
 			AfterProcessingInitializeOnLoad (1ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
 		AwakeInstancesAfterBackupRestoration (2ms)
 Launching external process: /Applications/Unity/Hub/Editor/2022.3.12f1/Unity.app/Contents/Tools/UnityShaderCompiler
 Launched and connected shader compiler UnityShaderCompiler after 0.03 seconds
-Refreshing native plugins compatible for Editor in 0.69 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 0.71 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 3091 Unused Serialized files (Serialized files now loaded: 0)
 Unloading 32 unused Assets / (51.1 KB). Loaded Objects now: 3552.
-Memory consumption went from 127.7 MB to 127.6 MB.
-Total: 2.157542 ms (FindLiveObjects: 0.089416 ms CreateObjectMapping: 0.042875 ms MarkObjects: 1.965667 ms  DeleteObjects: 0.059167 ms)
+Memory consumption went from 127.8 MB to 127.8 MB.
+Total: 2.076875 ms (FindLiveObjects: 0.079167 ms CreateObjectMapping: 0.049125 ms MarkObjects: 1.886166 ms  DeleteObjects: 0.062167 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
@@ -190,101 +190,33 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 522964.515037 seconds.
-  path: Assets/Prefabs/wall_pillar.prefab
-  artifactKey: Guid(3f0b7905211a1476fb248241cc57f7cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/wall_pillar.prefab using Guid(3f0b7905211a1476fb248241cc57f7cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9e242ec35798abfd0e8d8f9f878a95f0') in 0.053237 seconds
+  Time since last request: 611508.321378 seconds.
+  path: Assets/Prefabs/wall_doorway_sides.prefab
+  artifactKey: Guid(ac71cbefb8a43422d901a973f1ef23c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/wall_doorway_sides.prefab using Guid(ac71cbefb8a43422d901a973f1ef23c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '29be1390fdcfb6b6ec753094c3c6fed0') in 0.056883 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 19
+========================================================================
+Received Import Request.
+  Time since last request: 164.168020 seconds.
+  path: Assets/Prefabs/wall_sloped.prefab
+  artifactKey: Guid(b7e8051a519114b0da22c43ce09eb5ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/wall_sloped.prefab using Guid(b7e8051a519114b0da22c43ce09eb5ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c0d9ba2cef90a40757b047c91bce3c90') in 0.005970 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 17
 ========================================================================
 Received Import Request.
-  Time since last request: 746.419078 seconds.
-  path: Assets/Prefabs/floor_dirt_large_rocky.prefab
-  artifactKey: Guid(538bbc45ba20447f3a73ed21dad8a604) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/floor_dirt_large_rocky.prefab using Guid(538bbc45ba20447f3a73ed21dad8a604) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f605c01175e3e4c19cc695bc4fd01c7f') in 0.005578 seconds
+  Time since last request: 263.758355 seconds.
+  path: Assets/Prefabs/torch_mounted.prefab
+  artifactKey: Guid(9f03edff3f06b42b7b2c86be92eccd4f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/torch_mounted.prefab using Guid(9f03edff3f06b42b7b2c86be92eccd4f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f09f6f203c8800c7ee5666d97fc804fd') in 0.006327 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 17
 ========================================================================
 Received Import Request.
-  Time since last request: 222.932643 seconds.
-  path: Assets/Prefabs/floor_dirt_grave.prefab
-  artifactKey: Guid(90515f0cfc8e64110984ded36f82e507) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/floor_dirt_grave.prefab using Guid(90515f0cfc8e64110984ded36f82e507) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9f034042c805e32385890a17529db3f7') in 0.006253 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 21
-========================================================================
-Received Import Request.
-  Time since last request: 5.360686 seconds.
-  path: Assets/Prefabs/floor_dirt.prefab
-  artifactKey: Guid(14721ed39b27343f494e03e2e1ac9f3e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/floor_dirt.prefab using Guid(14721ed39b27343f494e03e2e1ac9f3e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '030b51a4ef277ccb93c9205a58516355') in 0.005007 seconds
+  Time since last request: 404.728316 seconds.
+  path: Assets/Prefabs/sign_right.prefab
+  artifactKey: Guid(5149601e0dd544c49a22236cbd4728cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/sign_right.prefab using Guid(5149601e0dd544c49a22236cbd4728cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4ca34e458441c076326f02ef09104091') in 0.004951 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 17
-========================================================================
-Received Import Request.
-  Time since last request: 60.050609 seconds.
-  path: Assets/Prefabs/floor_dirt_large.prefab
-  artifactKey: Guid(f96b4d9225655453fbd5fd3ed4312dfe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/floor_dirt_large.prefab using Guid(f96b4d9225655453fbd5fd3ed4312dfe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b34131cb299f7aafc0036f5b69d5993a') in 0.005360 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 17
-========================================================================
-Received Import Request.
-  Time since last request: 6.576112 seconds.
-  path: Assets/Prefabs/floor_dirt_large_rocky.prefab
-  artifactKey: Guid(538bbc45ba20447f3a73ed21dad8a604) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/floor_dirt_large_rocky.prefab using Guid(538bbc45ba20447f3a73ed21dad8a604) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '18d3ec7425c3ac611fce691fb7fe37d3') in 0.005078 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 17
-========================================================================
-Received Import Request.
-  Time since last request: 204.967777 seconds.
-  path: Assets/Prefabs/floor_tile_large.prefab
-  artifactKey: Guid(06f217e44781446358c9c82d29b25560) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/floor_tile_large.prefab using Guid(06f217e44781446358c9c82d29b25560) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9d068dabcc1729a79ccc1678df5b0ea7') in 0.005176 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 17
-========================================================================
-Received Import Request.
-  Time since last request: 0.010729 seconds.
-  path: Assets/Prefabs/floor_tile_big_grate_open.prefab
-  artifactKey: Guid(5db1fef9ead234c05a51fde22d0e5b9b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/floor_tile_big_grate_open.prefab using Guid(5db1fef9ead234c05a51fde22d0e5b9b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2d79040b1ebed0f71cf4d1b3da9280b7') in 0.004184 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 17
-========================================================================
-Received Import Request.
-  Time since last request: 0.000045 seconds.
-  path: Assets/Prefabs/floor_tile_large_rocks.prefab
-  artifactKey: Guid(eba9b807da89343bc8fce4c0b1989075) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/floor_tile_large_rocks.prefab using Guid(eba9b807da89343bc8fce4c0b1989075) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '20541485558ce1c4f5790cee4a5123c9') in 0.003355 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 18
-========================================================================
-Received Import Request.
-  Time since last request: 0.000024 seconds.
-  path: Assets/Prefabs/floor_tile_grate_open.prefab
-  artifactKey: Guid(5939319c42e9d4208bdf9763d0240a8e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/floor_tile_grate_open.prefab using Guid(5939319c42e9d4208bdf9763d0240a8e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b63697b1edd0822b7bc432a3dc4f4984') in 0.002952 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 17
-========================================================================
-Received Import Request.
-  Time since last request: 0.000099 seconds.
-  path: Assets/Prefabs/floor_wood_large.prefab
-  artifactKey: Guid(acd5885345c4e45fda96b553777811ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/floor_wood_large.prefab using Guid(acd5885345c4e45fda96b553777811ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '68c847e7f2fbcb7d1d1d236b4f663eee') in 0.003180 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 17
-========================================================================
-Received Import Request.
-  Time since last request: 0.000032 seconds.
-  path: Assets/Prefabs/floor_wood_large_dark.prefab
-  artifactKey: Guid(b5c371618d6af4e6bbf32c06c8047e50) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/floor_wood_large_dark.prefab using Guid(b5c371618d6af4e6bbf32c06c8047e50) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a6802c291f700d711734e9e21bdacb00') in 0.003259 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 17
-Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
-TcpMessagingSession - receive error: operation aborted. errorcode: 89, details: Operation aborted.
-AssetImportWorker is now disconnected from the server
-Process exiting
