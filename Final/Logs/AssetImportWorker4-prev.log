@@ -1,0 +1,758 @@
+Unity Editor version:    2022.3.12f1 (4fe6e059c7ef)
+Branch:                  2022.3/release
+Build type:              Release
+Batch mode:              YES
+macOS version:           Version 14.4.1 (Build 23E224)
+Darwin version:          23.4.0
+Architecture:            arm64
+Running under Rosetta:   NO
+Available memory:        32768 MB
+Using pre-set license
+Pro License: YES
+
+COMMAND LINE ARGUMENTS:
+/Applications/Unity/Hub/Editor/2022.3.12f1/Unity.app/Contents/MacOS/Unity
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker4
+-projectPath
+/Users/juangonzalez352/Documents/GitHub/Final/Final
+-logFile
+Logs/AssetImportWorker4.log
+-srvPort
+56723
+Successfully changed project path to: /Users/juangonzalez352/Documents/GitHub/Final/Final
+/Users/juangonzalez352/Documents/GitHub/Final/Final
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [8695298752] Host "[IP] 10.194.22.162 [Port] 0 [Flags] 2 [Guid] 1205766236 [EditorId] 1205766236 [Version] 1048832 [Id] OSXEditor(0,mac-studio.rusd.edu) [Debug] 1 [PackageName] OSXEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+
+Player connection [8695298752] Host "[IP] 10.194.22.162 [Port] 0 [Flags] 2 [Guid] 1205766236 [EditorId] 1205766236 [Version] 1048832 [Id] OSXEditor(0,mac-studio.rusd.edu) [Debug] 1 [PackageName] OSXEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+
+[Physics::Module] Initialized MultithreadedJobDispatcher with 11 workers.
+Refreshing native plugins compatible for Editor in 2.12 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2022.3.12f1 (4fe6e059c7ef)
+[Subsystems] Discovering subsystems at path /Applications/Unity/Hub/Editor/2022.3.12f1/Unity.app/Contents/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path /Users/juangonzalez352/Documents/GitHub/Final/Final/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+ preferred device: Apple M2 Max (high power)
+Metal devices available: 1
+0: Apple M2 Max (high power)
+Using device Apple M2 Max (high power)
+Initializing Metal device caps: Apple M2 Max
+Initialize mono
+Mono path[0] = '/Applications/Unity/Hub/Editor/2022.3.12f1/Unity.app/Contents/Managed'
+Mono path[1] = '/Applications/Unity/Hub/Editor/2022.3.12f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityjit-macos'
+Mono config path = '/Applications/Unity/Hub/Editor/2022.3.12f1/Unity.app/Contents/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56236
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: /Applications/Unity/Hub/Editor/2022.3.12f1/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: /Applications/Unity/Hub/Editor/2022.3.12f1/Unity.app/Contents/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
+Registered in 0.000925 seconds.
+- Loaded All Assemblies, in  0.168 seconds
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.125 seconds
+Domain Reload Profiling: 293ms
+	BeginReloadAssembly (38ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (0ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (0ms)
+	RebuildCommonClasses (20ms)
+	RebuildNativeTypeToScriptingClass (7ms)
+	initialDomainReloadingComplete (25ms)
+	LoadAllAssembliesAndSetupDomain (79ms)
+		LoadAssemblies (38ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (78ms)
+			TypeCache.Refresh (77ms)
+				TypeCache.ScanAssembly (70ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (0ms)
+	FinalizeReload (125ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (93ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (4ms)
+			SetLoadedEditorAssemblies (3ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (1ms)
+			ProcessInitializeOnLoadAttributes (63ms)
+			ProcessInitializeOnLoadMethodAttributes (22ms)
+			AfterProcessingInitializeOnLoad (0ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (0ms)
+========================================================================
+Worker process is ready to serve import requests
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.288 seconds
+Refreshing native plugins compatible for Editor in 0.96 ms, found 2 plugins.
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Package Manager log level set to [2]
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.280 seconds
+Domain Reload Profiling: 568ms
+	BeginReloadAssembly (61ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (3ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (14ms)
+	RebuildCommonClasses (20ms)
+	RebuildNativeTypeToScriptingClass (7ms)
+	initialDomainReloadingComplete (19ms)
+	LoadAllAssembliesAndSetupDomain (181ms)
+		LoadAssemblies (106ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (102ms)
+			TypeCache.Refresh (92ms)
+				TypeCache.ScanAssembly (83ms)
+			ScanForSourceGeneratedMonoScriptInfo (6ms)
+			ResolveRequiredComponents (2ms)
+	FinalizeReload (281ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (201ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (3ms)
+			SetLoadedEditorAssemblies (2ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (28ms)
+			ProcessInitializeOnLoadAttributes (158ms)
+			ProcessInitializeOnLoadMethodAttributes (10ms)
+			AfterProcessingInitializeOnLoad (1ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (2ms)
+Launching external process: /Applications/Unity/Hub/Editor/2022.3.12f1/Unity.app/Contents/Tools/UnityShaderCompiler
+Launched and connected shader compiler UnityShaderCompiler after 0.03 seconds
+Refreshing native plugins compatible for Editor in 0.69 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3091 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 32 unused Assets / (51.1 KB). Loaded Objects now: 3552.
+Memory consumption went from 127.6 MB to 127.5 MB.
+Total: 2.129500 ms (FindLiveObjects: 0.079625 ms CreateObjectMapping: 0.038459 ms MarkObjects: 1.945042 ms  DeleteObjects: 0.065833 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: 3918e3fc78b5a79bad01e8451be0beb8 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 264982.858268 seconds.
+  path: Assets/Models/fbx(unity)/fence_pillar.fbx
+  artifactKey: Guid(8a6f51230608443089adb4fc936d3ed7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/fbx(unity)/fence_pillar.fbx using Guid(8a6f51230608443089adb4fc936d3ed7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b7c11a61e061853fe6b2e27aa862b334') in 0.086251 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.244767 seconds.
+  path: Assets/Models/fbx(unity)/grave_B.fbx
+  artifactKey: Guid(60bfeb3bf1da044d6b64eec72cfb4a73) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/fbx(unity)/grave_B.fbx using Guid(60bfeb3bf1da044d6b64eec72cfb4a73) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e562176682398480cd5c9c751b46bb17') in 0.013752 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000074 seconds.
+  path: Assets/Models/fbx(unity)/haybale.fbx
+  artifactKey: Guid(15ea6f9decc24421ead728f4570af8a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/fbx(unity)/haybale.fbx using Guid(15ea6f9decc24421ead728f4570af8a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dca858920b5589cf19078bea6d133766') in 0.009706 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/Models/fbx(unity)/lantern_hanging.fbx
+  artifactKey: Guid(8915a799dddcd488ca38842e77fffa27) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/fbx(unity)/lantern_hanging.fbx using Guid(8915a799dddcd488ca38842e77fffa27) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '12c03fb0f8d2b0337cae5ce99c5a523f') in 0.008697 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.041354 seconds.
+  path: Assets/Models/fbx(unity)/lollipop_brown.fbx
+  artifactKey: Guid(202e529203dd54f04b48f7a4eeba3e32) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/fbx(unity)/lollipop_brown.fbx using Guid(202e529203dd54f04b48f7a4eeba3e32) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4f5cb37adb23256de05d8a500fc8a8ab') in 0.008969 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000078 seconds.
+  path: Assets/Models/fbx(unity)/path_A.fbx
+  artifactKey: Guid(89f446119bf7643d0a23600c821582a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/fbx(unity)/path_A.fbx using Guid(89f446119bf7643d0a23600c821582a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'de4b7c048e33af1a6db511970e568aef') in 0.008364 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000055 seconds.
+  path: Assets/Models/fbx(unity)/maze_short.fbx
+  artifactKey: Guid(6357ffae983594a1b98851e1108941bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/fbx(unity)/maze_short.fbx using Guid(6357ffae983594a1b98851e1108941bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e112b862e586770421826b357d46c2d4') in 0.007276 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.285189 seconds.
+  path: Assets/Models/fbx(unity)/path_C.fbx
+  artifactKey: Guid(54604428f0aff452898822d5acb3bbc7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/fbx(unity)/path_C.fbx using Guid(54604428f0aff452898822d5acb3bbc7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '51edac1464b2d6543818da8f5fab7159') in 0.013196 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000076 seconds.
+  path: Assets/Models/fbx(unity)/plaque_candles.fbx
+  artifactKey: Guid(1f8710c13e95a4d70bd1b6e62dd934da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/fbx(unity)/plaque_candles.fbx using Guid(1f8710c13e95a4d70bd1b6e62dd934da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2a991c46b7e2eec517e1cf48f0fe6376') in 0.009601 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000056 seconds.
+  path: Assets/Models/fbx(unity)/post_skull.fbx
+  artifactKey: Guid(bc7b7a861eaa34309a46181dc1ce4eb0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/fbx(unity)/post_skull.fbx using Guid(bc7b7a861eaa34309a46181dc1ce4eb0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b172efb93345ca568e0a630b27c86350') in 0.013123 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 14
+========================================================================
+Received Import Request.
+  Time since last request: 0.409466 seconds.
+  path: Assets/Models/fbx(unity)/pumpkin_orange.fbx
+  artifactKey: Guid(2684d03509b264a3d94bbd594df88556) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/fbx(unity)/pumpkin_orange.fbx using Guid(2684d03509b264a3d94bbd594df88556) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dd1e0ef71319265a7aee7e9214b1d3ec') in 0.014137 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000052 seconds.
+  path: Assets/Models/fbx(unity)/pumpkin_yellow_small.fbx
+  artifactKey: Guid(e31b46a66f855494f986cc6f9cd907dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/fbx(unity)/pumpkin_yellow_small.fbx using Guid(e31b46a66f855494f986cc6f9cd907dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd122e5ff6a65149e25139b9a3aa97a8f') in 0.009370 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Models/fbx(unity)/ribcage.fbx
+  artifactKey: Guid(e2f38026d6ff3426987efa7c0f8379e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/fbx(unity)/ribcage.fbx using Guid(e2f38026d6ff3426987efa7c0f8379e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '90065816696e8e888de5f1ae69ea5d95') in 0.008945 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.263287 seconds.
+  path: Assets/Models/fbx(unity)/shrine_candles.fbx
+  artifactKey: Guid(1913877a2352e4f1884c336e66ffc466) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/fbx(unity)/shrine_candles.fbx using Guid(1913877a2352e4f1884c336e66ffc466) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '218fd9073848250cfe8eade6a1d90d2c') in 0.013485 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000059 seconds.
+  path: Assets/Models/fbx(unity)/sign_right.fbx
+  artifactKey: Guid(93b05899124b44daa9f40f96596d8d22) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/fbx(unity)/sign_right.fbx using Guid(93b05899124b44daa9f40f96596d8d22) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '79c9e059d1d025c59c3ddf613c0f2865') in 0.009776 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Models/fbx(unity)/skull_candle.fbx
+  artifactKey: Guid(678909cce55ec46148e20f5bcd737831) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/fbx(unity)/skull_candle.fbx using Guid(678909cce55ec46148e20f5bcd737831) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9d79a56b2dd1fff7f3b036ad8cd1cc6b') in 0.009106 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/Models/fbx(unity)/skull.fbx
+  artifactKey: Guid(2a6b74c5f0cf340d39a461a0b0c2f59f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/fbx(unity)/skull.fbx using Guid(2a6b74c5f0cf340d39a461a0b0c2f59f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e98a854f613837025753b5dc1099b968') in 0.008912 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000074 seconds.
+  path: Assets/Models/fbx(unity)/tree_pine_yellow_large.fbx
+  artifactKey: Guid(6dca917c316234036941cbe32d142302) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/fbx(unity)/tree_pine_yellow_large.fbx using Guid(6dca917c316234036941cbe32d142302) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '93506fb224a73a8d0cf842a74f5f48c6') in 0.007233 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Models/fbx(unity)/tree_pine_yellow_medium.fbx
+  artifactKey: Guid(dffaa0b1a938f492fb9cc9db1d5eb3e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/fbx(unity)/tree_pine_yellow_medium.fbx using Guid(dffaa0b1a938f492fb9cc9db1d5eb3e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a1b2469e0bbc2593fd89a4aa5c24514a') in 0.007164 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000047 seconds.
+  path: Assets/Models/fbx(unity)/tree_pine_orange_small.fbx
+  artifactKey: Guid(ef960c2dfcb6448c49963f2d2f35a8f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/fbx(unity)/tree_pine_orange_small.fbx using Guid(ef960c2dfcb6448c49963f2d2f35a8f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '981b4370b9c10cb9288b3d3142527f2a') in 0.006733 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/Models/fbx(unity)/tree_pine_orange_medium.fbx
+  artifactKey: Guid(14f74da1f075d46fbb4785a675db9ee2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/fbx(unity)/tree_pine_orange_medium.fbx using Guid(14f74da1f075d46fbb4785a675db9ee2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c3a44edd5783ddcb1b662ef22cfe51a8') in 0.006595 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 18.736899 seconds.
+  path: Assets/Models/fbx of corn maze/grave_A_destroyed.fbx
+  artifactKey: Guid(6bfb61862e55b4487b97b57673c37016) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/fbx of corn maze/grave_A_destroyed.fbx using Guid(6bfb61862e55b4487b97b57673c37016) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '066a5528c391e039fc9e1c0f49115fc4') in 0.012008 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000090 seconds.
+  path: Assets/Models/fbx of corn maze/pitchfork.fbx
+  artifactKey: Guid(ccfe0edf945f549218815307dedf0efd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/fbx of corn maze/pitchfork.fbx using Guid(ccfe0edf945f549218815307dedf0efd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd96cd2f11251bd5dc88bac72dd5026ef') in 0.007145 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/Models/fbx of corn maze/haybale.fbx
+  artifactKey: Guid(15ea6f9decc24421ead728f4570af8a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/fbx of corn maze/haybale.fbx using Guid(15ea6f9decc24421ead728f4570af8a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0ada050e69ab367b7397b30209f0de24') in 0.007669 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Models/fbx of corn maze/plaque.fbx
+  artifactKey: Guid(e047ab5e9d4d74cd78905b80f132beb1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/fbx of corn maze/plaque.fbx using Guid(e047ab5e9d4d74cd78905b80f132beb1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd7fd30f616b0acd4d9ebce1aa2e04be9') in 0.007502 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Models/fbx of corn maze/gravemarker_B.fbx
+  artifactKey: Guid(36d6d96a34fc24fe69d1aede54a23c26) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/fbx of corn maze/gravemarker_B.fbx using Guid(36d6d96a34fc24fe69d1aede54a23c26) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'df040159af0a9eae5107ceb506fa1674') in 0.006988 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Models/fbx of corn maze/post_skull.fbx
+  artifactKey: Guid(bc7b7a861eaa34309a46181dc1ce4eb0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/fbx of corn maze/post_skull.fbx using Guid(bc7b7a861eaa34309a46181dc1ce4eb0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7800d7a43eb9d6c4ffb42633efb6d209') in 0.010356 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 14
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/Models/fbx of corn maze/lollipop_blue.fbx
+  artifactKey: Guid(25b070f8da73345658be15a665e95596) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/fbx of corn maze/lollipop_blue.fbx using Guid(25b070f8da73345658be15a665e95596) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ae5f44c91ad7f78bf4b0c697adb0bc3b') in 0.006310 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000054 seconds.
+  path: Assets/Models/fbx of corn maze/lantern_hanging.fbx
+  artifactKey: Guid(8915a799dddcd488ca38842e77fffa27) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/fbx of corn maze/lantern_hanging.fbx using Guid(8915a799dddcd488ca38842e77fffa27) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '42d2cc7602622df8b9ef4124cf605326') in 0.007015 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000093 seconds.
+  path: Assets/Models/fbx of corn maze/maze_short.fbx
+  artifactKey: Guid(6357ffae983594a1b98851e1108941bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/fbx of corn maze/maze_short.fbx using Guid(6357ffae983594a1b98851e1108941bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bd5a460f5d8bd01b29fd9a57e7d17f80') in 0.007480 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 117.973294 seconds.
+  path: Assets/Characters
+  artifactKey: Guid(7a54671b0bf0049128c76165bdb1d2b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Characters using Guid(7a54671b0bf0049128c76165bdb1d2b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e90c51bd5ad951edc7c88f3f91668c45') in 0.000356 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 83.279025 seconds.
+  path: Assets/Characters/Mage.fbx
+  artifactKey: Guid(1a66c605b5a7d4773a1286929e810a66) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Characters/Mage.fbx using Guid(1a66c605b5a7d4773a1286929e810a66) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9d8a37bf3fd9a0cad66e9c68dbeab3da') in 0.142502 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 219
+========================================================================
+Received Import Request.
+  Time since last request: 10.686721 seconds.
+  path: Assets/Characters/Mage.fbx
+  artifactKey: Guid(1a66c605b5a7d4773a1286929e810a66) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Characters/Mage.fbx using Guid(1a66c605b5a7d4773a1286929e810a66) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c86be69bf851c2d3eef82b5d6ff7ea70') in 0.055151 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 220
+========================================================================
+Received Import Request.
+  Time since last request: 15.002016 seconds.
+  path: Assets/Models/fbx of corn maze/arch.fbx
+  artifactKey: Guid(e52c87110a2bf41bebde01b7d2b50a36) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/fbx of corn maze/arch.fbx using Guid(e52c87110a2bf41bebde01b7d2b50a36) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f48ff9275a6c84bbf78ee96bffd57b90') in 0.016998 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000051 seconds.
+  path: Assets/Models/fbx of corn maze/shrine.fbx
+  artifactKey: Guid(d7642ce7ed7a14d21b18b7c1b643fe96) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/fbx of corn maze/shrine.fbx using Guid(d7642ce7ed7a14d21b18b7c1b643fe96) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4d0013a815dc40172c8c17b584e0b031') in 0.009412 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000049 seconds.
+  path: Assets/Models/fbx of corn maze/fence_seperate.fbx
+  artifactKey: Guid(7581dabf5c68f4ed7ac5f8ec4f9bac1f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/fbx of corn maze/fence_seperate.fbx using Guid(7581dabf5c68f4ed7ac5f8ec4f9bac1f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5e53c9f4e6ff4c96683652b77d2b142c') in 0.008481 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Models/fbx of corn maze/tree_pine_yellow_large.fbx
+  artifactKey: Guid(6dca917c316234036941cbe32d142302) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/fbx of corn maze/tree_pine_yellow_large.fbx using Guid(6dca917c316234036941cbe32d142302) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c7be3340e63c4db48e3a80846bc29669') in 0.008525 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Models/fbx of corn maze/fence_gate.fbx
+  artifactKey: Guid(db815e7ffebca420c8fe3707c4076dcd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/fbx of corn maze/fence_gate.fbx using Guid(db815e7ffebca420c8fe3707c4076dcd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'abb35d00b33ebf98e952144d929d2744') in 0.014559 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 19
+========================================================================
+Received Import Request.
+  Time since last request: 0.000048 seconds.
+  path: Assets/Models/fbx of corn maze/candy_blue_A.fbx
+  artifactKey: Guid(49052a13d6c4a4c8e92cb2bf1b795e74) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/fbx of corn maze/candy_blue_A.fbx using Guid(49052a13d6c4a4c8e92cb2bf1b795e74) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '23e2ca58be1d921a81f8f73427ac56b0') in 0.006956 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Assets/Models/fbx of corn maze/candle.fbx
+  artifactKey: Guid(c8546a4befc114b59b03f3802714efa9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/fbx of corn maze/candle.fbx using Guid(c8546a4befc114b59b03f3802714efa9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f6fd2a59758ece558d58b9d3a0f9e16d') in 0.006615 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Models/fbx of corn maze/tree_dead_medium.fbx
+  artifactKey: Guid(bc49a4ba725a142fd82da66dd52760b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/fbx of corn maze/tree_dead_medium.fbx using Guid(bc49a4ba725a142fd82da66dd52760b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '317df82b404cae1b7c19775e622d499f') in 0.005552 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Models/fbx of corn maze/coffin.fbx
+  artifactKey: Guid(73455594e89fc40389d82b22074139bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/fbx of corn maze/coffin.fbx using Guid(73455594e89fc40389d82b22074139bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '64e7eee79ab33fff1693bc44f17ae52c') in 0.010165 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 14
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/Models/fbx of corn maze/candy_bucket_B.fbx
+  artifactKey: Guid(372adc2c3238f4becb1926d36a3becfc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/fbx of corn maze/candy_bucket_B.fbx using Guid(372adc2c3238f4becb1926d36a3becfc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '81f283da0b9f4a1b845a15aba4a11c5f') in 0.010993 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 14
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/Models/fbx of corn maze/fence_pillar_broken.fbx
+  artifactKey: Guid(b2139bc95ef114f83b5c42103fed62ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/fbx of corn maze/fence_pillar_broken.fbx using Guid(b2139bc95ef114f83b5c42103fed62ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c311a8ca241d2207aeccff439d01d82f') in 0.006970 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000051 seconds.
+  path: Assets/Models/fbx of corn maze/floor_dirt_grave.fbx
+  artifactKey: Guid(fa44a9503afd24e1aada17a9f7db8385) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/fbx of corn maze/floor_dirt_grave.fbx using Guid(fa44a9503afd24e1aada17a9f7db8385) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cdb7f4534f3f9ea1cf624519a7f3b68b') in 0.006837 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/Models/fbx of corn maze/candy_orange_B.fbx
+  artifactKey: Guid(03f864bd5368242cf97618b3d5e23a7e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/fbx of corn maze/candy_orange_B.fbx using Guid(03f864bd5368242cf97618b3d5e23a7e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f54ed4e1b9752a6336a940bb4133fc0d') in 0.006982 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000042 seconds.
+  path: Assets/Models/fbx of corn maze/candy_green_B.fbx
+  artifactKey: Guid(4268829d04b0f496c88ee3aadc94470a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/fbx of corn maze/candy_green_B.fbx using Guid(4268829d04b0f496c88ee3aadc94470a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '49ace0bd811854b9a73a6a4067ed9ca8') in 0.006789 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Models/fbx of corn maze/scarecrow.fbx
+  artifactKey: Guid(54ff344bcf988406f8845f26c0d67371) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/fbx of corn maze/scarecrow.fbx using Guid(54ff344bcf988406f8845f26c0d67371) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '28aa6eb82d3053e0d83a54885359a803') in 0.006439 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Models/fbx of corn maze/candy_orange_A.fbx
+  artifactKey: Guid(97f81e494945640959a2ee2ea8917063) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/fbx of corn maze/candy_orange_A.fbx using Guid(97f81e494945640959a2ee2ea8917063) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ea6448771669a684ed795cf6f3984522') in 0.006671 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Models/fbx of corn maze/bench_decorated.fbx
+  artifactKey: Guid(742f077cd507744aba08aed138de0bf6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/fbx of corn maze/bench_decorated.fbx using Guid(742f077cd507744aba08aed138de0bf6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '710627fdf6c72a3c622e7e63f81581e5') in 0.007268 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000065 seconds.
+  path: Assets/Models/fbx of corn maze/bench.fbx
+  artifactKey: Guid(41784e0e1bcd1485c93af046bd2c19bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/fbx of corn maze/bench.fbx using Guid(41784e0e1bcd1485c93af046bd2c19bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '370c454523f7dac93a91bfbc1f6d8ba0') in 0.006560 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Models/fbx of corn maze/tree_pine_orange_large.fbx
+  artifactKey: Guid(2d73cb9efe6cb44c48d7ae1f0b526408) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/fbx of corn maze/tree_pine_orange_large.fbx using Guid(2d73cb9efe6cb44c48d7ae1f0b526408) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '88dbc0de3917b6a96621665bf2f1a273') in 0.007070 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/Models/fbx of corn maze/tree_dead_large_decorated.fbx
+  artifactKey: Guid(35efe9e551b424ebd85cfca27588a558) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/fbx of corn maze/tree_dead_large_decorated.fbx using Guid(35efe9e551b424ebd85cfca27588a558) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '54578ee886255a299bcd4fa394ce75c5') in 0.006691 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/Models/fbx of corn maze/candle_triple.fbx
+  artifactKey: Guid(99a27179c4c5242b2b4f34f3c465fb48) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/fbx of corn maze/candle_triple.fbx using Guid(99a27179c4c5242b2b4f34f3c465fb48) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6b3855c20f7280a00d81759718593f4d') in 0.006743 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000066 seconds.
+  path: Assets/Models/fbx of corn maze/candle_melted.fbx
+  artifactKey: Guid(93d055662f54d4189857927f24a7ea5d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/fbx of corn maze/candle_melted.fbx using Guid(93d055662f54d4189857927f24a7ea5d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8a9ec3fea7377257fe3bc1f1ded84aae') in 0.006318 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Models/fbx of corn maze/pumpkin_orange_small.fbx
+  artifactKey: Guid(0bb77280fc2b74f099d5c5050dd00aff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/fbx of corn maze/pumpkin_orange_small.fbx using Guid(0bb77280fc2b74f099d5c5050dd00aff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e2ed8136bac53a6e33be47df5bd2fdac') in 0.006184 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/Models/fbx of corn maze/sign_both.fbx
+  artifactKey: Guid(fc6c5e73e008c4806b5d97e1eb059bde) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/fbx of corn maze/sign_both.fbx using Guid(fc6c5e73e008c4806b5d97e1eb059bde) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '544ebdcfa0f21de0801d8997df850eef') in 0.006283 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/Models/fbx of corn maze/tree_pine_yellow_medium.fbx
+  artifactKey: Guid(dffaa0b1a938f492fb9cc9db1d5eb3e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/fbx of corn maze/tree_pine_yellow_medium.fbx using Guid(dffaa0b1a938f492fb9cc9db1d5eb3e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b24262c81ef250042744f34e31b238a6') in 0.006915 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Models/fbx of corn maze/candy_green_C.fbx
+  artifactKey: Guid(ba8582fa9401a4e51bb09f2beca254e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/fbx of corn maze/candy_green_C.fbx using Guid(ba8582fa9401a4e51bb09f2beca254e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '71de818b0e00afacf576f004fefeedd0') in 0.006513 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000059 seconds.
+  path: Assets/Models/fbx of corn maze/pumpkin_yellow.fbx
+  artifactKey: Guid(d1e1f86d66a224f058c0af51f2aa3b49) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/fbx of corn maze/pumpkin_yellow.fbx using Guid(d1e1f86d66a224f058c0af51f2aa3b49) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2ad9ae7ad77260bce2e4b4e69af48a50') in 0.006496 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Models/fbx of corn maze/candycorn.fbx
+  artifactKey: Guid(6444450f5ac764723aff0e8292028a79) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/fbx of corn maze/candycorn.fbx using Guid(6444450f5ac764723aff0e8292028a79) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '56a28df9c0bd765f411c70c43aad2d4d') in 0.006132 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Models/fbx of corn maze/wooden_gate_halloween.fbx
+  artifactKey: Guid(e7d2b2db67c8b4ba79e3e89c9f1a3627) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/fbx of corn maze/wooden_gate_halloween.fbx using Guid(e7d2b2db67c8b4ba79e3e89c9f1a3627) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c103b179e0bb3fbba1caadb7697cdc58') in 0.006301 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Models/fbx of corn maze/bone_B.fbx
+  artifactKey: Guid(00f7dca852a6143f8ad31ebb1728ebbb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/fbx of corn maze/bone_B.fbx using Guid(00f7dca852a6143f8ad31ebb1728ebbb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e0523c32dd98a185062783908256f05a') in 0.006357 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/Models/fbx of corn maze/candy_bucket_B_decorated.fbx
+  artifactKey: Guid(ddc43cf1ba52b4d9983690be6d720c7c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/fbx of corn maze/candy_bucket_B_decorated.fbx using Guid(ddc43cf1ba52b4d9983690be6d720c7c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '36efd5c4bc67a229ee6ebcc0bb659717') in 0.010201 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 14
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/Models/fbx of corn maze/candy_bucket_A_decorated.fbx
+  artifactKey: Guid(9ec41d63702494211bb3328e89661e1c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/fbx of corn maze/candy_bucket_A_decorated.fbx using Guid(9ec41d63702494211bb3328e89661e1c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eb54a4932969dec77888aa69f95a053e') in 0.009987 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 14
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Models/fbx of corn maze/pumpkin_yellow_jackolantern.fbx
+  artifactKey: Guid(4dcc10e8304c840a3ac401ac497e9522) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/fbx of corn maze/pumpkin_yellow_jackolantern.fbx using Guid(4dcc10e8304c840a3ac401ac497e9522) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5c38699e9c8b2d660c3e74ddc3b915b7') in 0.006845 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000052 seconds.
+  path: Assets/Models/fbx of corn maze/pumpkin_orange_jackolantern.fbx
+  artifactKey: Guid(9c8a0a85572f543309cd97f6e9a2d4b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/fbx of corn maze/pumpkin_orange_jackolantern.fbx using Guid(9c8a0a85572f543309cd97f6e9a2d4b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0fc59ea8052ef436b6dc03b62b3f68b4') in 0.007393 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/Models/fbx of corn maze/crypt.fbx
+  artifactKey: Guid(3dc3782356c104a3882ba430deac5247) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/fbx of corn maze/crypt.fbx using Guid(3dc3782356c104a3882ba430deac5247) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd4f5279abb43b7ad2c073155cddfa15f') in 0.007795 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/Models/fbx of corn maze/pumpkin_orange.fbx
+  artifactKey: Guid(2684d03509b264a3d94bbd594df88556) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/fbx of corn maze/pumpkin_orange.fbx using Guid(2684d03509b264a3d94bbd594df88556) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '45b048b6fddf1c5f80b4fefc99ca2391') in 0.008693 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/Models/fbx of corn maze/candy_green_A.fbx
+  artifactKey: Guid(79d99cad19ef5471ea347e2b3e0b35b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/fbx of corn maze/candy_green_A.fbx using Guid(79d99cad19ef5471ea347e2b3e0b35b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '77ec2ee1cf99077affedfa20c62b7e42') in 0.007578 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000049 seconds.
+  path: Assets/Models/fbx of corn maze/wagon_hay.fbx
+  artifactKey: Guid(8268ae28d4cc743a4b357f8e490654c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/fbx of corn maze/wagon_hay.fbx using Guid(8268ae28d4cc743a4b357f8e490654c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0acfc3ecfb270edd08248f0801d537e2') in 0.021175 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 29
